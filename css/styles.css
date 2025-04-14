@@ -218,7 +218,7 @@ section {
 .product-container {
   max-width: 1400px;
   text-align: center;
- }
+}
 
 .product-subtitle {
   display: inline-block;
@@ -258,7 +258,7 @@ section {
 }
 
 .product-item:nth-child(2) .icon-box {
-  background-color: #4d8dff;;
+  background-color: #4d8dff;
 }
 
 .product-item:nth-child(3) .icon-box {
@@ -277,7 +277,7 @@ section {
   color: #22343d;
   margin-bottom: 13px;
 }
-  
+
 .product-text {
   font-weight: 400;
   font-size: 16px;
@@ -373,27 +373,26 @@ section {
   height: 35px;
 }
 
-.management-items  li:nth-child(3) .click-box {
+.management-items li:nth-child(3) .click-box {
   background-color: #f90;
 }
 
-.management-items  li:nth-child(4) .click-box {
-  background-color: #f03e3d;;
+.management-items li:nth-child(4) .click-box {
+  background-color: #f03e3d;
 }
 
-.management-items  li:nth-child(5) .click-box {
+.management-items li:nth-child(5) .click-box {
   background-color: #4d8dff;
-  
 }
 
-.management-items .customer li:nth-child(n+3):nth-child(-n+5) {
+.management-items .customer li:nth-child(n + 3):nth-child(-n + 5) {
   display: flex;
   align-items: flex-start;
   gap: 30px;
   border: 2.92px solid #fff;
 }
 
-.management-items li:nth-child(n+3):nth-child(-n+5) .icon-click {
+.management-items li:nth-child(n + 3):nth-child(-n + 5) .icon-click {
   fill: #fff;
 }
 
@@ -425,7 +424,7 @@ section {
   align-items: center;
   justify-content: center;
   width: 280px;
-    border-radius: 50px 50px 50px 50px;
+  border-radius: 50px 50px 50px 50px;
   box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
 }
 .quick-text {
@@ -761,7 +760,6 @@ section {
   border: 1px solid #fff;
 }
 
-
 .footer-container {
   width: 1110px;
 }
@@ -782,12 +780,12 @@ section {
   min-width: 131px;
   margin-right: 83px;
 }
- 
+
 footer {
   margin-bottom: 10px;
 }
 
-footer .logo  {
+footer .logo {
   padding: 0px;
   margin-right: 0;
   margin-bottom: 18px;
@@ -827,7 +825,6 @@ footer .logo  {
   color: #22343d;
 }
 
-
 .footer-heading {
   font-weight: 500;
   font-size: 20px;
@@ -837,12 +834,12 @@ footer .logo  {
 }
 
 .footer-text {
-font-weight: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 2.19;
   color: #22343d;
 }
- .footer-wrap-item .footer-heading {
+.footer-wrap-item .footer-heading {
   margin-bottom: 30px;
 }
 
@@ -852,15 +849,15 @@ font-weight: 400;
 
 .footer-input {
   border: 1px solid #bcd0e5;
-    border-radius: 4px;
-    min-width: 325px;
-    height: 48px;
-    background-color: transparent;
-    padding-left: 42px;
-    padding-right: 10px;
-    outline: transparent;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 25px;
+  border-radius: 4px;
+  min-width: 325px;
+  height: 48px;
+  background-color: transparent;
+  padding-left: 42px;
+  padding-right: 10px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 25px;
 }
 .footer-input:focus {
   border-color: #02897a;
@@ -890,7 +887,7 @@ font-weight: 400;
   border-radius: 4px;
   min-width: 101px;
   background-color: #02897a;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-btn:hover,
 .footer-btn:focus {
@@ -900,11 +897,11 @@ font-weight: 400;
   background-color: transparent;
   border: transparent;
 }
- 
+
 .end-text {
   font-weight: 400;
-    font-size: 16px;
-    line-height: 1.875;
-    color: #22343d;
-    text-align: center;
+  font-size: 16px;
+  line-height: 1.875;
+  color: #22343d;
+  text-align: center;
 }
