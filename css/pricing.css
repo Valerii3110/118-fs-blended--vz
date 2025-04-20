@@ -146,7 +146,6 @@ header {
 }
 
 .price-title-slogan {
- 
   margin-bottom: 32px;
 }
 
@@ -429,6 +428,7 @@ header {
 
 .question-item {
     gap: 16px;
+    border-bottom: 1px solid #e7e7e7;
 }
 
 .question-headline-box {
