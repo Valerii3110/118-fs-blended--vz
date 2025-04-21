@@ -59,10 +59,8 @@ section {
 
 .container {
     width: 100%;
-    max-width: 410px;
+    min-width: 320px;
     margin: 0 auto;
-    padding-right: 30px;
-    padding-left: 30px;
 }
 
 .logo {
@@ -74,10 +72,8 @@ section {
     align-items: center;
     gap: 4px;
     padding-top: 17px;
-    padding-right: 27px;
     padding-bottom:17px;
-    padding-left: px 32px;
-    margin-right: 150px;
+    margin-right: auto;
 }
 
 @media screen (min-widht: 1150px) {
@@ -139,12 +135,14 @@ section {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    
 }
 
 .header-wrap {
     display: flex;
+    min-width: 320px;
+
+    
 }
 
 
@@ -237,7 +235,8 @@ section {
     visibility: hidden;
     pointer-events: none;
 }
-.mob-menu.mob-menu.is-open {
+
+.mob-menu.is-open {
     transform: translateY(0);
     transition: transform 300ms ease,
     opacity 300ms ease,
@@ -251,6 +250,7 @@ section {
 
     display: flex;
     flex-direction: column;
+    width: 100%;
     height: 100%;
 }
 
@@ -269,25 +269,78 @@ section {
     justify-content: center;
     align-items: center;
     padding: 0;
-
+   
 }
 .menu-close-icon {
 }
-.mob-nav {
-}
 .mob-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 12px;    
 }
 .mob-menu-item {
-}
-.mob-menu-nav-link {
-}
-.mob-menu-item {
+    display: flex;
+        gap: 30px;
 }
 .mob-menu-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.19;
+    color: #22343d;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-soc-menu {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 15px;
+
+}
+.mob-soc-item {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.mob-soc-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background-color: #edfffc;
+}
+  
+  .mob-soc-icon {
+    fill: #02897a;
 }
 .mob-btn-list {
+    display: flex;
+    gap: 21px;
 }
-.mob-btn-item {
-}
+
 .mob-btn {
+    font-family: inherit;
+    ont-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #173a56;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    min-width: 105px;
+    height: 42px;
+    background-color:transparent;
+    transition:background-color 250mscubic-bezier(0.4, 0, 0.2,1);
+}
+
+.mob-btn:hover,
+.mob-btn:focus {
+    color: #fff;
+    background-color: #02897a;
+    border-color: transparent;
 }
