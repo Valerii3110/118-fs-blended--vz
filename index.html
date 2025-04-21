@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=D, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Business promotion</title>
 
@@ -27,42 +27,109 @@
   <body>
     <header class="header section">
       <div class="container header-container">
-        <a href="./index.html" class="logo"
-          ><svg class="icon" width="40" height="36">
-            <use href="./images/product/icons.svg#icon-logo"></use></svg
-          >Product</a
-        >
-        <nav class="header-nav">
-          <ul class="header-nav-list">
-            <li class="header-nav-item">
-              <a href="./index.html" class="header-nav-link current">Product</a>
+        <div class="header-wrap">
+        
+          <a href="./index.html" class="logo">
+            <svg class="icon" width="40" height="36">
+              <use href="./images/product/icons.svg#icon-logo"></use></svg
+            >Product</a
+          >
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-item">
+                <a href="./index.html" class="header-nav-link">Product</a>
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link" href="./customers.html">Customers</a>
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link current" href="./pricing.html">Pricing</a>
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link" href="./pricing.html">Resources</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="header-btn-list">
+            <li class="header-btn-item">
+              <button class="header-btn btn" type="button">Sign In</button>
             </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="./customers.html">Customers</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="./pricing.html">Pricing</a>
-            </li>
-            <li class="header-nav-item">
-              <a class="header-nav-link" href="./pricing.html">Resources</a>
+            <li class="header-btn-item">
+              <button class="header-btn btn" type="button">Sign Up</button>
             </li>
           </ul>
-        </nav>
-        <ul class="header-btn-list">
-          <li class="header-btn-item">
-            <button class="header-btn btn" type="button">Sign In</button>
-          </li>
-          <li class="header-btn-item">
-            <button class="header-btn btn" type="button">Sign Up</button>
-          </li>
-        </ul>
-        
+          <button class="burger-btn" type="button">
+            <svg class="burger-icon" width="28" height="31">
+              <use href="./images/product/icons.svg#icon-burger" width="28" height="31" ></use>
+            </svg>
+          </button>
+        </div>
+        <div class="mob-menu">
+          <div class="container mob-menu-container">
+            <div>
+              <button class="menu-close-btn" type="button">
+                <svg class="menu-close-icon" width="8" height="8">
+                  <use href="./images/product/icons.svg#icon-close"></use>
+                </svg>
+              </button>
+              <nav class="mob-nav">
+                <ul class="mob-menu-list">
+                  <li class="mob-menu-item">
+                    <a href="./index.html" class="mob-menu-nav-link">Product</a>
+                  </li>
+                  <li class="mob-menu-item">
+                    <a class="mob-menu-link" href="./customers.html">Customers</a>
+                  </li>
+                  <li class="mob-menu-item">
+                    <a class="mob-menu-link current" href="./pricing.html"
+                      >Pricing</a
+                    >
+                  </li>
+                  <li class="mob-menu-item">
+                    <a class="mob-menu-link" href="./pricing.html">Resources</a>
+                  </li>
+                </ul>
+                <ul class="mob-soc-menu">
+                  <li class="mob-soc-item">
+                    <a class="mob-soc-link" href="./index.html">
+                      <svg class="mob-soc-icon" width="24" height="24">
+                        <use href="./images/product/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mob-soc-item">
+                    <a class="mob-soc-link" href="./index.html">
+                      <svg class="mob-soc-icon" width="24" height="24">
+                        <use href="./images/product/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mob-soc-item">
+                    <a class="mob-soc-link" href="./index.html">
+                      <svg class="mob-soc-icon" width="24" height="24">
+                        <use href="./images/product/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="mob-btn-list">
+                  <li class="mob-btn-item">
+                    <button class="mob-btn btn" type="button">Sign In</button>
+                  </li>
+                  <li class="mob-btn-item">
+                    <button class="mob-btn btn" type="button">Sign Up</button>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
-    <main>
+     <main>
       <!-- HERO SECTION -->
-      <section class="hero section">
+      <!-- <section class="hero section">
         <div class="container hero-container">
           <div class="hero-wpap">
             <h1 class="title-page">Work at the speed of thought</h1>
@@ -91,9 +158,9 @@
             <use href="./images/product/icons.svg#icon-hero"></use>
           </svg>
         </div>
-      </section>
+      </section> -->
       <!-- Product -->
-      <section class="product section">
+      <!-- <section class="product section">
         <div class="product-container container">
           <h2 class="product-subtitle subtitle">
             Product was Built Specifically for You
@@ -157,9 +224,9 @@
 
           <button class="product-btn" type="button">sing up new</button>
         </div>
-      </section>
+      </section> -->
       <!-- Management -->
-      <section class="management section">
+      <!-- <section class="management section">
         <div class="management-container container">
           <ul class="management-menu">
             <li class="management-menu-item">
@@ -282,9 +349,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Quick & Easy Process -->
-      <section class="quick section">
+      <!-- <section class="quick section">
         <div class="quick-container container">
           <h2 class="quick-subtitle subtitle">Quick & Easy Process</h2>
 
@@ -354,9 +421,9 @@
             Contact our expert
           </button>
         </div>
-      </section>
+      </section> -->
       <!-- Contents Strategies -->
-      <section class="strategy section">
+      <!-- <section class="strategy section">
         <div class="strategy-container container">
           <h2 class="strategy-subtitle">Contents Strategies</h2>
 
@@ -422,9 +489,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Price Table -->
-      <section class="price section">
+      <!-- <section class="price section">
         <div class="price-container container">
           <h2 class="price-subtitle subtitle">Price Table</h2>
 
@@ -508,9 +575,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Clients -->
-      <section class="clients section">
+      <!-- <section class="clients section">
         <div class="clients-container container">
           <h2 class="clients-subtitle subtitle">What Clients Say</h2>
 
@@ -614,9 +681,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Praim -->
-      <section class="praim">
+      <!-- <section class="praim">
         <div class="container-praim container">
           <div class="praim-title">
             <h2 class="praim-subtitle">
@@ -633,10 +700,10 @@
             height="331"
           />
         </div>
-      </section>
+      </section> -->
     </main>
 
-    <footer class="footer-section section">
+     <footer class="footer-section section">
       <div class="footer-container container">
         <ul class="footer-menu">
           <li class="footer-menu-item">
